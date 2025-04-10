@@ -9,13 +9,18 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.duyle.lab78firebase"
     },
     "android": {
       "package": "com.duyle.lab78firebase",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "useNextNotificationsApi": true,
+      "googleServices": {
+        "project_number": "462759605626"
       }
     },
     "web": {
